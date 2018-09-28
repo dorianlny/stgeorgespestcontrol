@@ -8,7 +8,7 @@
 
  .badge-xl{font-size:1em!important;color:#fff}
  @media (max-width: 768px) {.badge-xl{display: none!important;}}
-
+.bg-grey{background-color: #E9ECEF!important;}
 :root {
   --blue: #0099FF;
   --indigo: #6610f2;
