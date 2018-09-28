@@ -5,6 +5,10 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ .badge-xl{font-size:1em!important;color:#fff}
+ @media (max-width: 768px) {.badge-xl{display: none!important;}}
+
 :root {
   --blue: #0099FF;
   --indigo: #6610f2;
@@ -1729,6 +1733,7 @@ fieldset:disabled a.btn {
     .show > .btn-info.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5); }
 
+      .color-warning{color:#ffc107!important;}
 .btn-warning {
   color: #152a49;
   background-color: #ffc107;
@@ -1798,6 +1803,7 @@ fieldset:disabled a.btn {
     .show > .btn-light.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5); }
 
+      .color-dark{color:#152a49!important;}
 .btn-dark {
   color: #fff;
   background-color: #152a49;
@@ -2800,7 +2806,7 @@ input[type="button"].btn-block {
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #0099FF;
+  color: red;
   background-color: #fff; }
 
 .nav-fill .nav-item {
@@ -6869,6 +6875,9 @@ section {
 
 .bg-gradient-3 {
   background: linear-gradient(90deg, #dc3545 0%, #fd7e14 100%); }
+
+  .bg-gradient-4 {
+    background: linear-gradient(90deg, #ffc107 0%, #fff 100%); }  
 
 .text-white p a {
   color: #fff; }
